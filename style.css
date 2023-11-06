@@ -406,21 +406,43 @@ label {
     -moz-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.75);
 }
 
-#contact .form-control {
-    background-color:green;
+.contact .form-control {
+    background-color: green;
     background-color: rgb(160, 209, 160);
-    color:brown;
+    color: brown;
 }
 
-#contact .form-control:focus {
+.contact .form-control:focus {
     border-color: green;
     box-shadow: none;
 }
 
-#contact .form-control::placeholder {
-    color:gray;
+.contact .form-control::placeholder {
+    color: gray;
 }
 
-#contact input.form-control {
+.contact input.form-control {
     height: 44px;
+}
+
+#class-feature {
+    width: 100%;
+    min-height:200px;
+    box-shadow: 10px 10px 26px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 26px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 26px -2px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+#class-feature p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+#class-feature .icon{
+    font-size: 30px;
+    color: green;
+}
+#class-feature h2{
+    font-size:20px ;
 }
