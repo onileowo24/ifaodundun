@@ -148,7 +148,7 @@ body {
     box-shadow: 6px 11px 76px -18px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 6px 11px 76px -18px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 6px 11px 76px -18px rgba(0, 0, 0, 0.75);
-    /* height: 500px; */
+    height: 360px;
 }
 
 #card-main img {
@@ -233,7 +233,7 @@ label {
     cursor: pointer;
     color: white;
     background-color: rgb(21, 212, 79);
-    padding: 3px 13px;
+    /* padding:  5px; */
     border-radius: 3px;
     margin-top: 12px;
 }
@@ -268,7 +268,7 @@ label {
     display: none;
 }
 
-#label1 {
+/* #label1 {
     display: inline-block;
     cursor: pointer;
     color: white;
@@ -286,7 +286,7 @@ label {
     padding: 3px 13px;
     border-radius: 3px;
     margin-top: 12px;
-}
+} */
 
 #ch3 {
     display: none;
@@ -446,3 +446,130 @@ label {
 #class-feature h2{
     font-size:20px ;
 }
+@media(max-width:1440px){
+    .hero2 {
+        height: 50vh;
+    }
+    
+}
+@media(max-width:1024px){
+    .navbar .navbar-brand {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .hero .main-text h2 {
+        font-size: 40px;
+    }
+    
+    .hero .main-text h3 {
+        font-size: 30px;
+    }
+    
+    .hero .main-text h4 {
+        font-size: 20px;
+    }
+    
+    .hero .main-text h5 {
+        font-size: 20px;
+    }
+    
+    .hero .main-text p {
+        font-size: 16px;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+    }
+    #card-main h2 {
+        font-size: 18px;
+    }
+    
+    #card-main h3 {
+        font-size: 16px;
+    }
+    .hero2 {
+        height: 65vh;
+    }
+
+    
+}
+@media(max-width:768px){
+    .navbar .navbar-brand {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .hero .main-text h2 {
+        font-size: 35px;
+    }
+    
+    .hero .main-text h3 {
+        font-size: 30px;
+    }
+    
+    .hero .main-text h4 {
+        font-size: 25px;
+    }
+    .hero {
+        height: 95vh;
+    }
+    .btn1 {
+        padding: 5px 10px;
+        font-size: 16px;
+    
+    }
+    #class-feature {
+        min-height:100px;
+    }
+    
+    #class-feature p {
+        font-size: 16px;
+    }
+    #class-feature .icon{
+        font-size: 25px;
+    }
+    #class-feature h2{
+        font-size:18px ;
+    }
+    
+    
+
+}
+@media(max-width:320px){
+    .navbar .navbar-brand {
+        font-size: 18px;
+    }
+    
+    .hero .main-text h2 {
+        font-size: 30px;
+    }
+    
+    .hero .main-text h3 {
+        font-size: 25px;
+    }
+    
+    .hero .main-text h4 {
+        font-size: 18px;
+    }
+    
+    .hero .main-text h5 {
+        font-size: 18px;
+    }
+    
+    .hero .main-text p {
+        font-size: 15px;
+    }
+    .hero2 {
+        height: 75vh;
+    }
+    .btn1 {
+        padding: 3px 8px;
+        font-size: 14px;
+    
+    }
+
+
+
+
+}
+
