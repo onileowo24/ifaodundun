@@ -148,7 +148,7 @@ body {
     box-shadow: 6px 11px 76px -18px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 6px 11px 76px -18px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 6px 11px 76px -18px rgba(0, 0, 0, 0.75);
-    height: 360px;
+    min-height: 360px;
 }
 
 #card-main img {
