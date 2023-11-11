@@ -424,7 +424,19 @@ label {
 .contact input.form-control {
     height: 44px;
 }
-
+.contact-email h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact-email i{
+    font-size: 22px;
+    color: green;
+}
+.contact-email p{
+    font-size: 18px;
+    color: brown;
+    font-weight: 500;
+}
 #class-feature {
     width: 100%;
     min-height:200px;
@@ -531,6 +543,17 @@ label {
     #class-feature h2{
         font-size:18px ;
     }
+    .contact-email h4{
+        font-size: 16px;
+    }
+    .contact-email i{
+        font-size: 19px;
+    }
+    .contact-email p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
     
     
 
